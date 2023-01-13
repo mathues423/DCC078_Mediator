@@ -7,7 +7,7 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class AparelhoCelTest {
     @Test
-    void deveElogiarSecretaria() {
+    void devePedirConeccao() {
         AparelhoCel tijolão = new AparelhoCel();
         assertEquals("O roteador recebeu o pedido de Conecção.\n"+
                 "O provedor recebeu o pedido de Conecção tendo a seguinte resposta.\n"+
@@ -16,7 +16,7 @@ class AparelhoCelTest {
     }
 
     @Test
-    void deveReclamarSecretaria() {
+    void devePedirBrodcast() {
         AparelhoCel tijolão = new AparelhoCel();
         assertEquals("O roteador recebeu o pedido de Brodcast.\n"+
                 "O provedor recebeu o pedido de Brodcast tendo a seguinte resposta.\n"+
